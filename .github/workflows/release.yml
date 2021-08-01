@@ -21,7 +21,6 @@ jobs:
       - run: npm ci
       - run: npm run lint --if-present
       - run: make test
-      - run: npx codecov
       - run: npm run build --if-present
       - name: Release
         env:

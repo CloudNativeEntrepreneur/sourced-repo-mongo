@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mateodelnorte/sourced-repo-mongo.git"
+    "url": "git://github.com/CloudNativeEntrepreneur/sourced-repo-mongo.git"
   },
   "keywords": [
     "sourced",
@@ -34,7 +34,7 @@
   "author": "mattwalters5@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mateodelnorte/sourced-repo-mongo/issues"
+    "url": "https://github.com/CloudNativeEntrepreneur/sourced-repo-mongo/issues"
   },
-  "homepage": "https://github.com/mateodelnorte/sourced-repo-mongo"
+  "homepage": "https://github.com/CloudNativeEntrepreneur/sourced-repo-mongo"
 }
