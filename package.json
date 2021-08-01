@@ -7,23 +7,25 @@
     "test": "test"
   },
   "dependencies": {
-    "debug": "4.3.1",
-    "lodash": "4.17.21",
-    "mongodb": "3.6.9",
+    "debug": "4.1.1",
+    "lodash": "4.17.15",
+    "mongodb": "3.5.7",
     "sourced": "2.0.8"
   },
   "devDependencies": {
-    "jest": "27.0.4",
-    "mocha": "9.0.0",
-    "should": "13.2.3"
+    "jest": "26.0.1",
+    "mocha": "7.2.0",
+    "should": "13.2.3",
+    "semantic-release": "^17.4.4"
   },
   "scripts": {
     "test": "mocha test -R spec --exit",
-    "jest": "jest --coverage --forceExit"
+    "jest": "jest --coverage --forceExit",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mateodelnorte/sourced-repo-mongo.git"
+    "url": "https://github.com/CloudNativeEntrepreneur/sourced-repo-mongo.git"
   },
   "keywords": [
     "sourced",
@@ -34,7 +36,7 @@
   "author": "mattwalters5@gmail.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mateodelnorte/sourced-repo-mongo/issues"
+    "url": "https://github.com/CloudNativeEntrepreneur/sourced-repo-mongo/issues"
   },
-  "homepage": "https://github.com/mateodelnorte/sourced-repo-mongo"
+  "homepage": "https://github.com/CloudNativeEntrepreneur/sourced-repo-mongo"
 }
