@@ -13,12 +13,20 @@
     "sourced": "2.0.9"
   },
   "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-plugin-import": "2.23.4",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "5.1.0",
+    "eslint-plugin-standard": "4.1.0",
     "jest": "26.6.3",
     "mocha": "7.2.0",
     "should": "13.2.3",
     "semantic-release": "17.4.4"
   },
   "scripts": {
+    "lint": "eslint . --ext=.js,.mjs",
+    "lint:fix": "eslint --fix . --ext=.js,.mjs",
     "test": "mocha test -R spec --exit",
     "jest": "jest --coverage --forceExit",
     "semantic-release": "semantic-release"
