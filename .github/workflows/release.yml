@@ -16,8 +16,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 16
-      - name: Start MongoDB
-        uses: supercharge/mongodb-github-action@1.6.0
       - run: npm ci
       - run: npm run lint --if-present
       - run: make test
