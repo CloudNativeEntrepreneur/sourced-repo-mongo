@@ -15,15 +15,17 @@
   "devDependencies": {
     "jest": "26.0.1",
     "mocha": "7.2.0",
-    "should": "13.2.3"
+    "should": "13.2.3",
+    "semantic-release": "^17.4.4"
   },
   "scripts": {
     "test": "mocha test -R spec --exit",
-    "jest": "jest --coverage --forceExit"
+    "jest": "jest --coverage --forceExit",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/CloudNativeEntrepreneur/sourced-repo-mongo.git"
+    "url": "https://github.com/CloudNativeEntrepreneur/sourced-repo-mongo.git"
   },
   "keywords": [
     "sourced",
